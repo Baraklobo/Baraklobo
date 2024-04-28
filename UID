@@ -1,1 +1,102 @@
+supriya
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .skills {
+            margin-bottom: 20px;
+        }
+        .achievements {
+            margin-bottom: 20px;
+        }
+        .declaration {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Srinivas K.</h1>
+        <div class="contact-info">
+            <p>Address: D No: 123-1, Pandeypur, Paharia, Varanasi, Uttar Pradesh 221007.</p>
+            <p>Email: srinuknrxx@gmail.com</p>
+            <p>Mobile: 9395XXXX20</p>
+        </div>
+        <h2>Career Objective</h2>
+        <p>To start a career in a challenging and growth-oriented organization to effectively use skills and excel as a professional to achieve greater heights and recognition in career.</p>
+        <h2>Educational Qualification</h2>
+        <table>
+            <tr>
+                <th>Institution</th>
+                <th>Qualification</th>
+                <th>Year of Passing</th>
+                <th>GPA</th>
+            </tr>
+            <tr>
+                <td>Amity University</td>
+                <td>B. Tech (CSE)</td>
+                <td>2022</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Montfort Inter College</td>
+                <td>Intermediate</td>
+                <td>2018</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>City Montessori School</td>
+                <td>10th Class</td>
+                <td>2016</td>
+                <td>8.4</td>
+            </tr>
+        </table>
+        <h2>Technical Skills</h2>
+        <ul class="skills">
+            <li>Programming languages: Core Java</li>
+            <li>Web technologies: HTML, CSS</li>
+            <li>Web Servers: Apache Tomcat</li>
+            <li>Database: Oracle, MYSQL</li>
+            <li>Operating Systems: Windows 10, Linux</li>
+        </ul>
+        <h2>Achievements</h2>
+        <ul class="achievements">
+            <li>Won awards in painting competitions</li>
+            <li>Won several awards in technical paper presentation</li>
+            <li>NCC head during graduation</li>
+        </ul>
+        <div class="declaration">
+            <p><strong>Declaration:</strong> I do hereby declare that all the above-furnished information is true to the best of my knowledge and belief.</p>
+            <p><strong>Place:</strong></p>
+            <p><strong>Date:</strong></p>
+        </div>
+    </div>
+</body>
+</html>
 
