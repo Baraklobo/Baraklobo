@@ -95,4 +95,58 @@ Box
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested List Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* Style for the main list */
+        ul {
+            list-style-type: none; /* Remove bullet points */
+            margin-left: 20px; /* Add some indentation */
+        }
+        /* Style for the nested lists */
+        ul ul {
+            list-style-type: circle; /* Use circle bullet points */
+            margin-left: 20px; /* Add indentation for nested lists */
+        }
+        /* Style for the list items */
+        li {
+            margin-bottom: 10px; /* Add spacing between list items */
+        }
+    </style>
+</head>
+<body>
+    <h2>1. Bookgod S</h2>
+    <ul>
+        <li>A. Unix Command Vim Test Editor</li>
+        <li>B. WING</li>
+        <li>C. Minimal Page</li>
+        <li>D. Resdags</li>
+        <li>E. Bes</li>
+        <li>F. Lin</li>
+        <li>G. Ondered</li>
+        <li>H. Definition</li>
+        <ul>
+            <li>a. Nested</li>
+            <li>b. Elaborate</li>
+            <li>c. Relative</li>
+        </ul>
+        <li>I. CSS</li>
+        <ul>
+            <li>a. Autonomy</li>
+            <li>b. Basic Selectors</li>
+            <li>c. Class</li>
+            <li>d. Group</li>
+            <li>e. The DOM</li>
+            <li>f. Advanced Selectors</li>
+            <li>g. Box Model</li>
+        </ul>
+    </ul>
+</body>
+</html>
+
 
