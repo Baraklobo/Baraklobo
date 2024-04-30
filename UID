@@ -1,1 +1,98 @@
+Box 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eat Healthy Live Healthy</title>
+    <style>
+        body {
+            background-color: lightgray; /* Set any background color for the webpage */
+        }
+        a:link {
+            color: green; /* Link color is green */
+            text-decoration: none; /* Remove underline */
+        }
+        a:visited {
+            color: red; /* Visited link color is red */
+        }
+        a:active {
+            color: blue; /* Active link color is blue */
+        }
+    </style>
+</head>
+<body>
+    <h1>KHAO PIYO RESTAURANT</h1>
+    <p><a href="menu.html" target="_blank">Menu</a></p>
+    <p><a href="about.html" target="_blank">About Us</a></p>
+    <p><a href="contact.html" target="_blank">Contact Us</a></p>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My College</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px; /* Add padding for better presentation */
+        }
+        h1 {
+            font-size: 36px;
+            color: #333333; /* Dark gray color */
+        }
+        h2 {
+            font-size: 24px;
+            color: #666666; /* Light gray color */
+        }
+        p {
+            font-size: 18px;
+            color: #444444; /* Dark gray color */
+        }
+        .highlight {
+            font-style: italic;
+            color: #FF4500; /* Orange color */
+            font-weight: bold;
+        }
+        ul, ol {
+            text-align: left; /* Align list items to left */
+            padding-left: 0; /* Remove default padding */
+        }
+        li {
+            margin-bottom: 10px; /* Add spacing between list items */
+        }
+        img {
+            max-width: 100%; /* Make sure image doesn't overflow */
+            margin-top: 20px; /* Add margin for separation */
+        }
+    </style>
+</head>
+<body>
+    <h1>My College</h1>
+    <p><em>123 College Street, City, Country</em></p>
+    
+    <h2>Courses Offered:</h2>
+    <ul>
+        <li>Bachelor of Science in Computer Science</li>
+        <li>Bachelor of Arts in English Literature</li>
+        <li>Bachelor of Business Administration</li>
+    </ul>
+    <h2>Facilities:</h2>
+    <ol>
+        <li>Library</li>
+        <li>Laboratories</li>
+        <li>Sports Complex</li>
+    </ol>
+    
+    <p class="highlight">Apply now for an exciting journey of learning!</p>
+    
+    <img src="college_image.jpg" alt="College Image">
+</body>
+</html>
+
+
+
 
